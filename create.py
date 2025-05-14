@@ -1,8 +1,8 @@
-import enviroment
+import environment
 
 def create_contact(name: str, email: str, phone: str):
 
-    with open(enviroment.DATABASE_NAME, "a") as file:
+    with open(environment.DATABASE_NAME, "a") as file:
 
         line = f"Name: {name} Email: {email} Phone: {phone}\n"
         
