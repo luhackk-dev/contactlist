@@ -11,4 +11,3 @@ if option_crud == CREATE_OPTION:
     phone = input("Type the phone: ")
 
     create.create_contact(name, email, phone)
-    
