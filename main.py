@@ -1,5 +1,7 @@
 import create
 
+option_crud = input("Type the option: ")
+
 CREATE_OPTION = "3"
 
 if option_crud == CREATE_OPTION:
