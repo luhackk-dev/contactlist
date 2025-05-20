@@ -9,7 +9,7 @@ def collect_info(name, email, phone):
 
     return string_contact
 
-def update_contact(finder):
+def update_contact():
 
     with open(environment.DATABASE_NAME, "r+") as file:
         old = file.read()
