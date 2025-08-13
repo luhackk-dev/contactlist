@@ -1,0 +1,20 @@
+import create
+import read
+
+option_crud = input("Type the option: ")
+
+CREATE_OPTION = "3"
+READ_OPTION = "2"
+
+if option_crud == CREATE_OPTION:
+    
+    name = input("Type the name contact: ")
+    email = input("Type the email contact: ")
+    phone = input("Type the phone: ")
+
+    create.create_contact(name, email, phone)
+
+if option_crud == READ_OPTION:
+    finder = input("Type Email or Phone to read your contact: ")
+
+    read.read_contact(finder)
